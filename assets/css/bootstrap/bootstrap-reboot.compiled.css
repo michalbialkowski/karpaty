@@ -174,11 +174,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #150880;
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #110666;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -223,7 +223,6 @@ kbd {
   font-size: 0.875em;
   color: #fff;
   background-color: #212529;
-  border-radius: 0.2rem;
 }
 kbd kbd {
   padding: 0;
