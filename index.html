@@ -22,30 +22,34 @@
     <div>
         <header>
             <div>
-                <nav class="navbar navbar-light navbar-expand-lg">
-                    <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/logo.svg"></a><button data-bs-toggle="collapse" class="navbar-toggler border-0" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <nav class="navbar navbar-light navbar-expand-xl">
+                    <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo.svg"></a><button data-bs-toggle="collapse" class="navbar-toggler border-0" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navcol-1">
                             <ul class="navbar-nav ms-auto fw-bold me-3">
-                                <li class="nav-item"><a class="nav-link px-3" href="#">Strona główna</a></li>
-                                <li class="nav-item"><a class="nav-link px-3" href="#">O nas</a></li>
-                                <li class="nav-item"><a class="nav-link px-3" href="#">Oferta</a></li>
-                                <li class="nav-item me-"><a class="nav-link px-3" href="#">Galeria zdjęć</a></li>
-                            </ul><button class="btn btn-primary rounded-pill px-3" type="button">Kontakt</button>
+                                <li class="nav-item"><a class="nav-link px-3" href="aktualnosci.html">Aktualności</a></li>
+                                <li class="nav-item"><a class="nav-link px-3" href="oferta.html">Oferta</a></li>
+                                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link px-3" aria-expanded="false" data-bs-toggle="dropdown" href="o-nas.html">O nas</a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="o-nas.html">O nas</a><a class="dropdown-item" href="struktura.html">Struktura</a><a class="dropdown-item" href="nasze-dzialania.html">Nasze działania</a></div>
+                                </li>
+                                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link px-3" aria-expanded="false" data-bs-toggle="dropdown" href="historia.html">Historia</a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="cele-uniwersytetow-ludowych.html">Cele Uniwersytetów Ludowych</a><a class="dropdown-item" href="idea-seweryna-grundtviga.html">Idea Seweryna Grundtviga</a><a class="dropdown-item" href="dawne-i-wspolczesne-rzemioslo.html">Dawne i współczesne rzemiosło</a><a class="dropdown-item" href="instrumenty-ludowe.html">Instrumenty ludowe</a></div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link px-3" href="galeria.html">Galeria zdjęć</a></li>
+                                <li class="nav-item"><a class="nav-link px-3" href="karpaty.html">Karpaty</a></li>
+                            </ul><a class="btn btn-primary rounded-pill px-3" role="button" href="kontakt.html">Kontakt</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </header>
         <main>
-            <div class="text-white" id="section__hero">
-                <div class="ratio ratio-5-2" style="background: url(&quot;assets/img/background/bg_hero.jpg&quot;) center bottom / cover no-repeat;">
-                    <div class="align-items-end">
-                        <div class="py-5">
-                            <div class="container">
-                                <h1 class="text-center mb-0">Karpacki Uniwersytet Ludowy</h1>
-                                <p class="text-center h1 mb-4">Razem możemy więcej</p>
-                                <div class="d-flex justify-content-center"><button class="btn btn-primary mx-1 px-5 py-2" type="button">Kontakt</button><button class="btn btn-light mx-1 px-5 py-2" type="button">O nas</button></div>
-                            </div>
+            <div class="text-white ratio ratio-sm-3-2 ratio-md-16-9 ratio-lg-2-1 ratio-xl-5-2 position-relative" style="background: url(&quot;assets/img/background/bg_hero.jpg&quot;) center bottom / cover no-repeat;">
+                <div class="align-items-end overlay">
+                    <div class="py-5">
+                        <div class="container">
+                            <h1 class="text-center mb-0">Karpacki Uniwersytet Ludowy</h1>
+                            <p class="text-center h1 mb-4">Razem możemy więcej</p>
+                            <div class="d-flex justify-content-center"><a class="btn btn-primary mx-1 px-5 py-2" role="button" href="kontakt.html">Kontakt</a><a class="btn btn-light mx-1 px-5 py-2" role="button" href="o-nas.html">O nas</a></div>
                         </div>
                     </div>
                 </div>
@@ -61,22 +65,22 @@
                             <div class="row row-cols-1 row-cols-sm-2">
                                 <div class="col py-3">
                                     <div class="d-flex mb-3"><img src="assets/img/icons/icon-1.svg"></div>
-                                    <h3>Idea Seweryna Grundtviga</h3>
+                                    <h3><a class="link-secondary text-decoration-none" href="idea-seweryna-grundtviga.html">Idea Seweryna Grundtviga</a></h3>
                                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius lacus. Suspendisse eu mollis urna, eu elementum lorem.</p>
                                 </div>
                                 <div class="col py-3">
                                     <div class="d-flex mb-3"><img src="assets/img/icons/icon-2.svg"></div>
-                                    <h3>Struktura</h3>
+                                    <h3><a class="link-secondary text-decoration-none" href="struktura.html">Struktura</a></h3>
                                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius lacus. Suspendisse eu mollis urna, eu elementum lorem.</p>
                                 </div>
                                 <div class="col py-3">
                                     <div class="d-flex mb-3"><img src="assets/img/icons/icon-3.svg"></div>
-                                    <h3>Działalność</h3>
+                                    <h3><a class="link-secondary text-decoration-none" href="nasze-dzialania.html">Działalność</a></h3>
                                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius lacus. Suspendisse eu mollis urna, eu elementum lorem.</p>
                                 </div>
                                 <div class="col py-3">
                                     <div class="d-flex mb-3"><img src="assets/img/icons/icon-4.svg"></div>
-                                    <h3>Cele</h3>
+                                    <h3><a class="link-secondary text-decoration-none" href="cele-uniwersytetow-ludowych.html">Cele</a></h3>
                                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius lacus. Suspendisse eu mollis urna, eu elementum lorem.</p>
                                 </div>
                             </div>
@@ -96,7 +100,7 @@
                                     <div class="px-3 py--100 w-100">
                                         <h2 class="text-primary mb-3">Cele Uniwersytetów Ludowych</h2>
                                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius lacus. Suspendisse eu mollis urna, eu elementum lorem. Pellentesque nec neque magna. Nam quis porta justo. Nam vel massa nibh. In maximus vestibulum ultrices.</p>
-                                        <div class="d-flex"><button class="btn btn-primary btn-sm text-uppercase px-3 py-2" type="button">Czytaj dalej</button></div>
+                                        <div class="d-flex"><a class="btn btn-primary btn-sm text-uppercase px-3 py-2" role="button" href="cele-uniwersytetow-ludowych.html">Czytaj dalej</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py--100" style="background: url(&quot;assets/img/background/bg-news.jpg&quot;);">
+            <div class="py--100 overlay position-relative" style="background: url(&quot;assets/img/background/bg-news.jpg&quot;);">
                 <div class="container-fluid">
                     <h2 class="text-center text-white">Aktualności</h2>
                     <p class="text-center text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -272,30 +276,30 @@
                                     <div class="row g-0">
                                         <div class="col-md-6">
                                             <div class="p-5">
-                                                <h3 class="text-dark h4">Nasze działania</h3>
+                                                <h3 class="text-secondary h4">Nasze działania</h3>
                                                 <p class="text-black-50">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus.</p>
-                                                <div class="d-flex"><button class="btn btn-sm text-uppercase link-primary p-0" type="button">Czytaj dalej</button></div>
+                                                <div class="d-flex"><a class="btn btn-sm text-uppercase link-primary p-0" role="button" href="nasze-dzialania.html">Czytaj dalej</a></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="p-5">
-                                                <h3 class="text-dark h4">Dawne i współczesne rzemiosło</h3>
+                                                <h3 class="text-secondary h4">Dawne i współczesne rzemiosło</h3>
                                                 <p class="text-black-50">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus.</p>
-                                                <div class="d-flex"><button class="btn btn-sm text-uppercase link-primary p-0" type="button">Czytaj dalej</button></div>
+                                                <div class="d-flex"><a class="btn btn-sm text-uppercase link-primary p-0" role="button" href="dawne-i-wspolczesne-rzemioslo.html">Czytaj dalej</a></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="p-5">
-                                                <h3 class="text-dark h4">Instrumenty ludowe</h3>
+                                                <h3 class="text-secondary h4">Instrumenty ludowe</h3>
                                                 <p class="text-black-50">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus.</p>
-                                                <div class="d-flex"><button class="btn btn-sm text-uppercase link-primary p-0" type="button">Czytaj dalej</button></div>
+                                                <div class="d-flex"><a class="btn btn-sm text-uppercase link-primary p-0" role="button" href="instrumenty-ludowe.html">Czytaj dalej</a></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="p-5">
-                                                <h3 class="text-dark h4">Karpaty</h3>
+                                                <h3 class="text-secondary h4">Karpaty</h3>
                                                 <p class="text-black-50">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus.</p>
-                                                <div class="d-flex"><button class="btn btn-sm text-uppercase link-primary p-0" type="button">Czytaj dalej</button></div>
+                                                <div class="d-flex"><a class="btn btn-sm text-uppercase link-primary p-0" role="button" href="karpaty.html">Czytaj dalej</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -335,14 +339,14 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-white d-flex py--100" style="background: url(&quot;assets/img/background/bg-kontakt.jpg&quot;) center top / cover no-repeat;">
+                        <div class="col-lg-6 text-white d-flex py--100 overlay position-relative" style="background: url(&quot;assets/img/background/bg-kontakt.jpg&quot;) center top / cover no-repeat;">
                             <div class="px-5">
                                 <h2>Kontakt</h2>
-                                <h3 class="h6 mt-4">Heading</h3>
+                                <h3 class="h6 mt-4">Adres</h3>
                                 <p class="fw-bold">Rynek 16/1<br>35-064 Rzeszów</p>
-                                <h3 class="h6 mt-4">Heading</h3>
+                                <h3 class="h6 mt-4">Telefon</h3>
                                 <p class="fw-bold">+(48) 17 850 01 87<br>+(48) 17 850 01 88</p>
-                                <h3 class="h6 mt-4">Heading</h3>
+                                <h3 class="h6 mt-4">E-mail</h3>
                                 <p class="mb-0 fw-bold">instytut.regionalny.fundacja@gmail.com</p>
                             </div>
                         </div>
@@ -351,36 +355,42 @@
             </div>
         </main>
         <footer>
-            <div class="text-white bg-secondary">
+            <div class="text-white bg-secondary py-3">
                 <div class="container">
-                    <div class="row justify-content-center align-items-center justify-content-xxl-between">
-                        <div class="col-auto py-3">
-                            <p class="mb-0">© 2021 Fundacja Instytut Regionalny</p>
-                        </div>
-                        <div class="col-auto py-3">
+                    <div class="row justify-content-center align-items-center justify-content-xl-between mb-3">
+                        <div class="col-12 col-xl-auto order-xl-2 mb-2 mb-xl-0">
                             <ul class="nav justify-content-center">
-                                <li class="nav-item"><a class="nav-link active link-light" href="#">Strona główna</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">O nas</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">Galeria zdjęć</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">Kontakt</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">Polityka prywatności</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">Polityka cookies</a></li>
-                                <li class="nav-item"><a class="nav-link link-light" href="#">Deklaracja dostępności</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="aktualnosci.html">Aktualności</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="oferta.html">Oferta</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="o-nas.html">O nas</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="historia.html">Historia</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="galeria.html">Galeria zdjęć</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="karpaty.html">Karpaty</a></li>
+                                <li class="nav-item"><a class="nav-link link-light" href="kontakt.html">Kontakt</a></li>
                             </ul>
                         </div>
+                        <div class="col-12 col-xl-auto order-xl-1">
+                            <p class="text-center mb-0">© 2021 Fundacja Instytut Regionalny</p>
+                        </div>
                     </div>
+                    <ul class="nav justify-content-center small">
+                        <li class="nav-item"><a class="nav-link active link-dark" href="polityka-prywatnosci.html">Polityka prywatności</a></li>
+                        <li class="nav-item"><a class="nav-link link-dark" href="polityka-cookies.html">Polityka cookies</a></li>
+                        <li class="nav-item"><a class="nav-link link-dark" href="deklaracja-dostepności.html">Deklaracja dostępności</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/libs/jquery.fancybox.js"></script>
-    <script src="assets/js/libs/flickity.pkgd.min.js"></script>
-    <script src="assets/js/triggers/flickity.js"></script>
-    <script src="assets/js/libs/cube-gallery.min.js"></script>
-    <script src="assets/js/triggers/cube-gallery.js"></script>
     <script src="assets/js/components/svg.js"></script>
     <script src="assets/js/components/scroll.js"></script>
+    <script src="assets/js/libs/flickity.pkgd.min.js"></script>
+    <script src="assets/js/libs/jquery.fancybox.js"></script>
+    <script src="assets/js/libs/cube-gallery.min.js"></script>
+    <script src="assets/js/triggers/flickity.js"></script>
+    <script src="assets/js/triggers/cube-gallery.js"></script>
 </body>
 
 </html>

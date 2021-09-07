@@ -1,4 +1,4 @@
-#section__hero .ratio > div:before, #section__hero .ratio > div:after {
+.overlay:before, .overlay:after {
   position: absolute;
   content: "";
   top: 0;
@@ -6,18 +6,18 @@
   width: 100%;
   height: 100%;
 }
-#section__hero .ratio > div:before {
+.overlay:before {
   background: #B1BE46;
   opacity: 0.54;
   z-index: 0;
   mix-blend-mode: multiply;
 }
-#section__hero .ratio > div:after {
+.overlay:after {
   background: linear-gradient(rgba(0, 0, 0, 0), black);
   opacity: 0.5;
   z-index: 50;
 }
-#section__hero .ratio > div > div {
+.overlay > div {
   position: relative;
   z-index: 100;
 }
