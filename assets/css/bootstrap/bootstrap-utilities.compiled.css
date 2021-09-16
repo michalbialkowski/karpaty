@@ -11,7 +11,7 @@
 }
 
 .link-primary {
-  color: #150880;
+  color: #150780;
 }
 .link-primary:hover, .link-primary:focus {
   color: #110666;
@@ -60,10 +60,10 @@
 }
 
 .link-dark {
-  color: #adb5bd;
+  color: #212529;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #bdc4ca;
+  color: #1a1e21;
 }
 
 .ratio {
@@ -457,7 +457,7 @@
 }
 
 .border-primary {
-  border-color: #150880 !important;
+  border-color: #150780 !important;
 }
 
 .border-secondary {
@@ -485,7 +485,7 @@
 }
 
 .border-dark {
-  border-color: #adb5bd !important;
+  border-color: #212529 !important;
 }
 
 .border-white {
@@ -1317,27 +1317,27 @@
 }
 
 .fs-1 {
-  font-size: calc(1.45rem + 2.4vw) !important;
+  font-size: calc(1.3515625rem + 1.21875vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.38125rem + 1.575vw) !important;
+  font-size: calc(1.30625rem + 0.675vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.28125rem + 0.375vw) !important;
+  font-size: calc(1.28359375rem + 0.403125vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.2625rem + 0.15vw) !important;
+  font-size: calc(1.2609375rem + 0.13125vw) !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1.1328125rem !important;
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 0.90625rem !important;
 }
 
 .fst-italic {
@@ -5693,19 +5693,19 @@
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 3.25rem !important;
+    font-size: 2.265625rem !important;
   }
 
   .fs-2 {
-    font-size: 2.5625rem !important;
+    font-size: 1.8125rem !important;
   }
 
   .fs-3 {
-    font-size: 1.5625rem !important;
+    font-size: 1.5859375rem !important;
   }
 
   .fs-4 {
-    font-size: 1.375rem !important;
+    font-size: 1.359375rem !important;
   }
 }
 @media print {

@@ -1,8 +1,21 @@
 * {
+  font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-img.cover {
-  object-fit: cover;
+html {
+  background: #f8f9fa;
+  height: -webkit-fill-available;
+}
+
+body {
+  background: transparent;
+  min-height: -webkit-fill-available;
+}
+
+header,
+main,
+footer {
+  background: #fff;
 }
